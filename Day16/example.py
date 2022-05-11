@@ -18,8 +18,8 @@ logging.basicConfig(format='%(asctime)s--%(message)s',level=logging.DEBUG)
 adapter = CustomAdapter(logger_def, {'customarg': None})
 
 try: 
-    adapter.info("DOING SOMETHING STUPID", customarg="FULL MARKS FOR BEING EXTRA STUPID")    
+    adapter.info("DOING SOMETHING STUPID", customarg="FULL MARKS FOR BEING EXTRA STUPID")
     1/0
 except Exception as ex:    
     # replace value of customarg
-    adapter.error("DID SOMETHING STUPID", customarg="NEVER DIVIDE BY ZERO")    
+    adapter.error("DID SOMETHING STUPID", customarg="NEVER DIVIDE BY ZERO")
