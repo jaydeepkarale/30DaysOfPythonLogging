@@ -13,6 +13,3 @@ def check_status(status):
 
 if __name__ == '__main__':
     check_status("Open")
-
-
-
