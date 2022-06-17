@@ -6,7 +6,7 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
 handler = TimedRotatingFileHandler(
-    "timed_test.log", when="s", interval=1, backupCount=5
+    "TimedRotatingFileHandler/timed_test.log", when="s", interval=1, backupCount=5
 )
 logger.addHandler(handler)
 for i in range(6):

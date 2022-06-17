@@ -38,7 +38,13 @@ logger = logging.getLogger()
  
 # Adding the formatter
 format = logging.Formatter('%(asctime)s-%(levelname)s-%(funcName)s-%(msg)s')
-gm = TlsSMTPHandler(("smtp.gmail.com", 587), '<from_email>', ['<to_email>'], 'Error found!', ('username', 'pwd'))
+gm = TlsSMTPHandler(
+    mailhost=("smtp.gmail.com", 587), 
+    fromaddr='<from_email>', 
+    toaddrs=['<to_email>'], 
+    subject='Error found!', 
+    credentials=('username', 'pwd')
+    )
 gm.setFormatter(format)
 gm.setLevel(logging.ERROR)
  

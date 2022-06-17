@@ -3,7 +3,7 @@ from logging.handlers import RotatingFileHandler
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
-handler = RotatingFileHandler('test_rotationhandler.log', maxBytes=2000, backupCount=20)
+handler = RotatingFileHandler('RotatingFileHandler/test_rotationhandler.log', maxBytes=2048, backupCount=20)
 logger.addHandler(handler)
 
 def create_rotating_log():

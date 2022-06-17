@@ -3,10 +3,10 @@ import logging.config
 from os import path
 
 
-logging.config.fileConfig('logging.ini')
+logging.config.fileConfig('StoringLoggingConfigInFile\logging.ini')
 
 # create logger
-logger = logging.getLogger('eample')
+logger = logging.getLogger('example')
 
 # 'application' code
 logger.debug('debug message')

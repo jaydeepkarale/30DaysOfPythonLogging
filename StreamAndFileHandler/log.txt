@@ -1,0 +1,2 @@
+2022-06-04 15:22:37,373-ERROR-This error log will be written to console & file-example_for_handlers
+2022-06-04 15:22:37,374-CRITICAL-This critical log will be written to console & file-example_for_handlers

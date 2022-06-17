@@ -3,7 +3,7 @@ import json
 import logging
 import logging.config
 
-with open('Day14\config.yaml', 'r') as configyml:
+with open('UsingYamlConfig\config.yaml', 'r') as configyml:
     confd = yaml.safe_load(configyml)
 
 logging.config.dictConfig(confd)

@@ -1,0 +1,5 @@
+2022-06-11 06:58:47,356 - example - WARNING - Consider adding check for input to be integers
+2022-06-11 06:58:47,357 - example - INFO - Adding 10 & 20
+2022-06-11 06:58:47,358 - example - WARNING - Consider adding check for input to be integers
+2022-06-11 06:58:47,359 - example - INFO - Adding 10 & a
+2022-06-11 06:58:47,359 - example - ERROR - unsupported operand type(s) for +: 'int' and 'str'
